@@ -11,8 +11,8 @@
 
 //初始化
 void USART_Init( void ){
-   UBRRL = 25;//    38400
-   UCSRB = (1<<RXCIE)|(1<<RXEN)|(1<<TXEN);
+   UBRRL = 25;//    
+   UCSRB = (1<<RXEN)|(1<<TXEN);
   
    UCSRC |= (1<<URSEL)|(1<<UCSZ1)|(1<<UCSZ0);
       
