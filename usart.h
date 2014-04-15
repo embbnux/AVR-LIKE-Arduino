@@ -20,4 +20,3 @@ extern unsigned char USART_Receive( void );
 extern void USART_SEND_String(char *str);
 #endif
 
-[/css]
